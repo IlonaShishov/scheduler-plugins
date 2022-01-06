@@ -84,6 +84,29 @@ func SetDefaultsCoschedulingArgs(obj *CoschedulingArgs) {
 	}
 }
 
+//
+//func SetDefaultsCoschedulingArgs2(obj *CoschedulingArgs) {
+//	if obj.PermitWaitingTimeSeconds == nil {
+//		obj.PermitWaitingTimeSeconds = &defaultPermitWaitingTimeSeconds
+//	}
+//	if obj.DeniedPGExpirationTimeSeconds == nil {
+//		obj.DeniedPGExpirationTimeSeconds = &defaultDeniedPGExpirationTimeSeconds
+//	}
+//}
+
+// SetDefaultNetworkTrafficArgs sets the default parameters for NetworkTraffic plugin
+func SetDefaultNetworkTrafficArgs(args *NetworkTrafficArgs) {
+	if args.TimeRangeInMinutes == nil {
+		defaultTime := int64(5)
+		args.TimeRangeInMinutes = &defaultTime
+	}
+
+	if args.NetworkInterface == nil || *args.NetworkInterface == "" {
+		netInterface := "ens192"
+		args.NetworkInterface = &netInterface
+	}
+}
+
 // SetDefaultsNodeResourcesAllocatableArgs sets the defaults parameters for NodeResourceAllocatable.
 func SetDefaultsNodeResourcesAllocatableArgs(obj *NodeResourcesAllocatableArgs) {
 	if len(obj.Resources) == 0 {
