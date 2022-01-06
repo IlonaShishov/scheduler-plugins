@@ -1,0 +1,11 @@
+[2022-01-06 13:12:25.555] [exthost] [info] Extension host with pid 1646739 started
+[2022-01-06 13:12:25.555] [exthost] [info] Skipping acquiring lock for /usr/local/go/src/sigs.k8s.io/scheduler-plugins/User/workspaceStorage/bbf00ff0c11d29f0978b33f648ced6c0.
+[2022-01-06 13:12:25.671] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-01-06 13:12:25.717] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-01-06 13:12:25.724] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-01-06 13:12:25.756] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-01-06 13:12:25.770] [exthost] [info] Eager extensions activated
+[2022-01-06 13:12:25.781] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-06 13:12:25.812] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-06 13:12:25.821] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-01-06 13:12:31.327] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
